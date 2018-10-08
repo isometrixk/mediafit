@@ -874,13 +874,13 @@ mediafit = (function() {
 })("docIsReady", window);
 
 docIsReady(function() {
-	if ( mediaFit.isInitialized() == false ) {
-		mediaFit.init();
+	if ( mediafit.isInitialized() == false ) {
+		mediafit.init();
 	}
 });
 
 function doMediaFit() {
-	mediaFit.doMediaFit();
+	mediafit.doMediaFit();
 }
 
 
